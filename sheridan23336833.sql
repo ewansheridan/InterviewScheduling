@@ -409,7 +409,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `add_skill`(
 	in skill varchar(45)
 )
 BEGIN
-	insert into skills (skill)
+	insert into skills (skill_name)
     values (skill);
 END ;;
 DELIMITER ;
